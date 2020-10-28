@@ -7,7 +7,7 @@ let package = Package(
       .package(url: "https://github.com/Kitura-Next/Kitura.git", from: "2.8.0"),
       .package(url: "https://github.com/Kitura-Next/HeliumLogger.git", from: "1.7.1"),
       .package(url: "https://github.com/Kitura-Next/CloudEnvironment.git", from: "9.0.0"),
-      .package(url: "https://github.com/RuntimeTools/SwiftMetrics.git", from: "2.0.0"),
+      .package(url: "https://github.com/Kitura-Next/SwiftMetrics.git", from: "2.0.0"),
       .package(url: "https://github.com/Kitura-Next/Health.git", from: "1.0.0"),
     ],
     targets: [
