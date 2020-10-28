@@ -1,7 +1,7 @@
 for i in {1..2}
 do
 echo "Checking if repo needs to be updated"
-export ORG="IBM-Swift"
+export ORG="Kitura-Next"
 export REPO="generator-swiftserver-projects"
 export GH_REPO="github.com/${ORG}/${REPO}.git"
 if [[ i -eq 1 ]]; then
