@@ -1,6 +1,6 @@
 ## Scaffolded Swift Kitura server application
 
-This scaffolded application provides a starting point for creating Swift applications running on [Kitura](http://www.kitura.io/).
+This scaffolded application provides a starting point for creating Swift applications running on [Kitura](http://www.kituranext.org/).
 
 ### Table of Contents
 * [Requirements](#requirements)
@@ -54,7 +54,7 @@ To deploy your application to your Kubernetes cluster, run `helm install --name 
 ### Configuration
 Your application configuration information for any services is stored in the `localdev-config.json` file in the `config` directory. This file is in the `.gitignore` to prevent sensitive information from being stored in git. The connection information for any configured services that you would like to access when running locally, such as username, password and hostname, is stored in this file.
 
-The application uses the [CloudEnvironment package](https://github.com/IBM-Swift/CloudEnvironment) to read the connection and configuration information from the environment and this file. It uses `mappings.json`, found in the `config` directory, to communicate where the credentials can be found for each service.
+The application uses the [CloudEnvironment package](https://github.com/Kitura-Next/CloudEnvironment) to read the connection and configuration information from the environment and this file. It uses `mappings.json`, found in the `config` directory, to communicate where the credentials can be found for each service.
 
 If the application is running locally, it can connect to IBM Cloud services using unbound credentials read from this file. If you need to create unbound credentials you can do so from the IBM Cloud web console ([example](https://cloud.ibm.com/docs/services/Cloudant/tutorials/create_service.html#creating-a-service-instance)), or using the CloudFoundry CLI [`cf create-service-key` command](http://cli.cloudfoundry.org/en-US/cf/create-service-key.html).
 
@@ -118,4 +118,4 @@ The [`manifest.yml`](https://cloud.ibm.com/docs/cloud-foundry/deploy-apps.html#a
 All generated content is available for use and modification under the permissive MIT License (see `LICENSE` file), with the exception of SwaggerUI which is licensed under an Apache-2.0 license (see `NOTICES.txt` file).
 
 ### Generator
-This project was generated with [generator-swiftserver](https://github.com/IBM-Swift/generator-swiftserver) v5.15.1.
+This project was generated with [generator-swiftserver](https://github.com/Kitura-Next/generator-swiftserver) v5.15.1.
